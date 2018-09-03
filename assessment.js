@@ -1,6 +1,6 @@
 
 // #1 Create a variable called hello and assign it the string 'goodbye'
-
+var Hello = {goodbye}
 
 
 // #2 Use the variable iLove to create a new variable called iLoveCode that is assigned the string "I love code"
@@ -8,7 +8,7 @@ var iLove = 'I love';
 
 // #3  Make an object called bob and give it the following properties
 // bob has a height of 6ft (string)
-// bob has an age of 24 (Number)
+// bob has an age of 25 (Number)
 // bob has hair, that has style spikey, and color brown (object)
 // bob is not presidentOfTheUnitedStates (boolean)
 // bob likes apples, bananas, and cherries (array of strings)

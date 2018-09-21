@@ -1,10 +1,11 @@
 
 // #1 Create a variable called hello and assign it the string 'goodbye'
-var Hello = {goodbye}
+var hello = 'goodbye';
 
 
 // #2 Use the variable iLove to create a new variable called iLoveCode that is assigned the string "I love code"
 var iLove = 'I love';
+var iLoveCode = iLove + 'code';
 
 // #3  Make an object called bob and give it the following properties
 // bob has a height of 6ft (string)
@@ -13,18 +14,27 @@ var iLove = 'I love';
 // bob is not presidentOfTheUnitedStates (boolean)
 // bob likes apples, bananas, and cherries (array of strings)
 
+var man = "Bob"
+height: "6 ft"
+age: 25
+hair: (style = "spikey" + color = "brown"); 
+presidentOfTheUnitedStates = false
+likes: ['apples', 'bananas', 'cherries'];
+
 
 // #4 Change my shirt color to pink using dot notation
 var myShirt = {
 	type: 'polo',
 	color: 'red'
 };
+.color: 'pink'
 
 // Change my shirt type to spandex using square bracket notation
 var myOtherShirt = {
 	type: 'polo',
 	color: 'red'
 };
+	type: ['spandex'];
 
 // #5 Create an object that tracks a count of animals in a zoo.  Call it 'zoo'
 // The key should be the animal name(string) and the value should be how many there are.
@@ -42,13 +52,15 @@ var snake = {
 };
 
 //#7 Create an array of strings that are the 7 primary colors in the rainbow - red, orange, yellow, green, blue, indigo, violet (lower-case). Call your array rainbowColors
+var rainbowColors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
 
 // #8 Using this array do the following
 var heroes = ['superman', 'batman', 'flash'];
 // add 'wonderwoman' to the end
-
+	heroes =+ 'wonderwoman';
 // remove 'superman' and store him in a variable called firstHero
-
+	heroes =- 'superman'
+	var firstHero = 'superman';
 // add 'spongebob' to the start of the array
 
 // remove 'flash' from the array and store him in a variable called secondHero
